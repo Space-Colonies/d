@@ -46,7 +46,7 @@ btn {
   
   <div style="color: grey; text-align: center;font-size:35px">
     <h1 >
-    Gumau Coin Android App
+    Colonies Android App
   </h1>
   <div id="co">  If app doesn't open automatically after the countdown , click the button below.</div>
 </div>
@@ -55,7 +55,7 @@ btn {
   -->
   <a id="a1" href="javascript:op();">Open app</a>
     </br> 
-    <h3>© AW Games 2025</h3>  
+    <h3>© Colonies 2025</h3>  
     <script>
     function open(){window.open("intent://aw.game#Intent;scheme=aw;package=com.awgames.aliensandwhot;end");}
    window.onload= function ()
@@ -68,14 +68,14 @@ btn {
     //const Param = Params.get('action');
       var tim=8;
   async function timeer1(){if(tim >0)tim =tim - 1;else clearInterval(timeer1); document.getElementById("co").innerHTML = "If app doesn't open automatically after the countdown " +tim+ ",  click the button below." ;}
-    function moviz(){a1.click();}
+    
   
 async function op(){   
     let Params,Param;
   try{  Params  = new URLSearchParams(window.location.search);
    Param = Params.get('action');
    //alert(Param);
-      let x="intent://mc2025.mc/"+  Param +"#Intent;scheme=mc;package=com.gcgames.gcapp;S.browser_fallback_url=https://movizbot.github.io/b/;end";
+      let x="intent://mc2025.mc/"+  Param +"#Intent;scheme=mc;package=com.gcgames.gcapp;S.browser_fallback_url=https://Space-Colonies.github.io/b/;end";
   window.location.href=x;
 
   }catch(x){alert(x); }
