@@ -29,8 +29,8 @@ btn {
 </style>
 
 
-<body style="background: #2e2e2e; display: block; flex-direction: column; align-items:center; justify-content: center;">
-   <ti style="background:#2e2e2e; display: flex; flex-direction: column; align-items:center; justify-content: center;">
+<body style="background: #1e1e1e; display: grid; flex-direction: column; align-items:center; justify-content: center;margin-top:30%;">
+   <ti style="background:#1e1e1e; display: flex; flex-direction: column; align-items:center; justify-content: center;">
   
   <div id="p1" style="display: block;"> 
   <div  style=" color:grey; display:flex;align-items: center; height:270px;wjustify-content: start; border:0px;">
@@ -75,7 +75,7 @@ async function op(){
   try{  Params  = new URLSearchParams(window.location.search);
    Param = Params.get('action');
    //alert(Param);
-      let x="intent://mc2025.mc/"+  Param +"#Intent;scheme=mc;package=com.capp.colonies;S.browser_fallback_url=https://Space-Colonies.github.io/b/;end";
+      let x="intent://mc2025.mc/"+  Param +"#Intent;scheme=mc;package=com.gcgames.gcapp;S.browser_fallback_url=https://Space-Colonies.github.io/b/;end";
   window.location.href=x;
 
   }catch(x){alert(x); }
